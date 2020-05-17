@@ -10,7 +10,7 @@ SYNOPSIS
        git config [<file-option>] [type] --add name value
        git config [<file-option>] [type] --replace-all name value [value_regex]
        git config [<file-option>] [type] [-z|--null] --get name [value_regex]
-       git config [<file-option>] [type] [-z|--null] --get-all name [value_regex]
+
        git config [<file-option>] [type] [-z|--null] --get-regexp name_regex [value_regex]
        git config [<file-option>] --unset name [value_regex]
        git config [<file-option>] --unset-all name [value_regex]
@@ -22,7 +22,7 @@ SYNOPSIS
        git config [<file-option>] -e | --edit
 
 
-DESCRIPTION
+EXPLANATION:
        You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot,
        and the value will be escaped.
 
